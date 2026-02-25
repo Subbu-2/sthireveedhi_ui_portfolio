@@ -1,0 +1,8 @@
+{
+  "groups": [
+    { "title": "Backend", "items": ["Java", "Spring Boot", "Go", "Python", "Microservices", "REST APIs", "Spring Batch"] },
+    { "title": "Frontend", "items": ["React", "Vite", "HTML/CSS", "Component design"] },
+    { "title": "Cloud/DevOps", "items": ["AWS", "Docker", "Nginx", "GitHub Actions", "CI/CD"] },
+    { "title": "Data", "items": ["SQL", "Monitoring & logging"] }
+  ]
+}

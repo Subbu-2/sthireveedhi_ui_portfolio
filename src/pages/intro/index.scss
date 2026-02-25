@@ -1,0 +1,9 @@
+.ph-page {
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.ph-page__wrap {
+  width: min(980px, 100%);
+  margin: 0 auto;
+}

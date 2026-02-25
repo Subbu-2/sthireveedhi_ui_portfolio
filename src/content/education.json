@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "school": "Bradley University",
+      "degree": "Master's",
+      "field": "Data Science",
+      "location": "Peoria, IL, US",
+      "dates": "AUG 2021 - DEC 2022",
+      "highlights": [
+        "Relevant coursework: Specialized in distributed systems, cloud computing, and performance optimization for high-availability applications.",
+        "Activities: Conducted research/projects focused on scalable architectures and real-time data processing."
+      ]
+    },
+    {
+      "school": "Vignan University",
+      "degree": "Bachelor's",
+      "field": "Electronics and Communication",
+      "location": "India",
+      "dates": "AUG 2014 - DEC 2018",
+      "highlights": [
+        
+      ]
+    }
+  ]
+}

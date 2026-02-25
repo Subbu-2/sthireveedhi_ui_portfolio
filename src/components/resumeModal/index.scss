@@ -1,0 +1,52 @@
+.ph-resume__row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.ph-resume__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+}
+
+.ph-resume__btn:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.ph-resume__btn--primary {
+  border-color: rgba(124, 92, 255, 0.6);
+  background: rgba(124, 92, 255, 0.16);
+}
+
+.ph-resume__frameWrap {
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.2);
+  height: min(68vh, 720px);
+}
+
+.ph-resume__frame {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.ph-resume__obj {
+  width: 100%;
+  height: 100%;
+}
+
+.ph-resume__fallback {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}

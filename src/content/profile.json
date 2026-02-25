@@ -1,0 +1,16 @@
+{
+  "name": "Subramanya Thireveedhi",
+  "headline": "Full-Stack Engineer • Java/Spring + React • AWS/Docker",
+  "location": "Chicago, IL",
+  "summary": "Full Stack Engineer with 6+ years building scalable, high-availability systems. Strong backend in Java/Spring, modern React UI, and AWS/Docker deployments. Focused on reliability, performance, and clean delivery.",
+  "highlights": [
+    "360K+ users • 99.9% availability",
+    "300–400K real-time alerts/day",
+    "Latency optimization: -100ms/record",
+    "Production deploys on AWS EC2 (Docker + Nginx)"
+  ],
+  "cta": {
+    "primary": { "label": "View Projects", "view": "projects" },
+    "secondary": { "label": "Resume", "view": "resume" }
+  }
+}

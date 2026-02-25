@@ -1,0 +1,69 @@
+.ph-grid {
+  padding: 18px 0 0;
+}
+
+.ph-grid__titleRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.ph-grid__title {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+}
+
+.ph-grid__hint {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.ph-grid__tiles {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+@media (max-width: 900px) {
+  .ph-grid__tiles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .ph-grid__tiles {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ph-grid__tile {
+  text-align: left;
+  padding: 16px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  cursor: pointer;
+  transition: transform 120ms ease, background 120ms ease, border-color 120ms ease;
+}
+
+.ph-grid__tile:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(124, 92, 255, 0.45);
+}
+
+.ph-grid__tileTop {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+
+.ph-grid__tileBot {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}

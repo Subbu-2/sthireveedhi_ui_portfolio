@@ -1,0 +1,172 @@
+.ph-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  padding: 22px;
+}
+
+.ph-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(6px);
+}
+
+.ph-modal__panel {
+  position: relative;
+  width: min(960px, 100%);
+  max-height: 85vh;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: rgba(15, 20, 35, 0.92);
+  box-shadow: var(--shadow-1);
+  overflow: hidden;
+  outline: none;
+  transform: translateY(0);
+}
+
+.ph-modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 14px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.ph-modal__title {
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.ph-modal__close {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.ph-modal__close:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.ph-modal__body {
+  padding: 18px;
+  overflow: auto;
+  max-height: calc(85vh - 52px);
+}
+
+/* subtle glow when open */
+.ph-modal--open .ph-modal__panel {
+  box-shadow:
+    0 18px 55px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(124, 92, 255, 0.22),
+    0 0 32px rgba(124, 92, 255, 0.12);
+}
+
+/* slightly reduce glow during close */
+.ph-modal--closing .ph-modal__panel {
+  box-shadow:
+    0 12px 40px rgba(0, 0, 0, 0.45),
+    0 0 0 1px rgba(124, 92, 255, 0.14);
+}
+
+.ph-modal__grab {
+  display: none;
+}
+
+/* Mobile drawer behavior */
+@media (max-width: 767px) {
+  .ph-modal {
+    place-items: end center;
+    padding: 0;
+  }
+
+  .ph-modal__panel {
+    max-height: 92vh;
+    border-radius: 18px 18px 0 0;
+    touch-action: none; 
+  }
+
+  .ph-modal__body {
+    padding: 16px;
+    padding-bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    max-height: calc(92vh - 52px);
+    touch-action: pan-y;
+  }
+
+  .ph-modal__grab {
+    display: block;
+    width: 44px;
+    height: 5px;
+    border-radius: 999px;
+    margin: 10px auto 6px;
+    background: rgba(255, 255, 255, 0.18);
+  }
+
+   .ph-modal--open .ph-modal__grab {
+    background: rgba(255, 255, 255, 0.22);
+  }
+}
+
+/* ---- Animations (enter/exit) ---- */
+.ph-modal__backdrop {
+  opacity: 0;
+  transition: opacity 220ms ease;
+}
+
+.ph-modal__panel {
+  opacity: 0;
+  transform: translateY(14px) scale(0.985);
+  transition: opacity 240ms ease, transform 260ms cubic-bezier(0.2, 0.9, 0.2, 1);
+  will-change: transform, opacity;
+}
+
+/* OPEN */
+.ph-modal--open .ph-modal__backdrop {
+  opacity: 1;
+}
+
+.ph-modal--open .ph-modal__panel {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* CLOSING */
+.ph-modal--closing .ph-modal__backdrop {
+  opacity: 0;
+}
+
+.ph-modal--closing .ph-modal__panel {
+  opacity: 0;
+  transform: translateY(10px) scale(0.99);
+}
+
+/* Mobile drawer motion */
+@media (max-width: 767px) {
+  .ph-modal__panel {
+    transform: translateY(28px);
+  }
+
+  .ph-modal--open .ph-modal__panel {
+    transform: translateY(0);
+  }
+
+  .ph-modal--closing .ph-modal__panel {
+    transform: translateY(18px);
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .ph-modal__backdrop,
+  .ph-modal__panel {
+    transition: none !important;
+    transform: none !important;
+  }
+}

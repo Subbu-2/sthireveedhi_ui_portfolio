@@ -1,0 +1,78 @@
+.ph-pm__lead {
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.55;
+  margin-bottom: 12px;
+}
+
+.ph-pm__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.ph-pm__card {
+  padding: 14px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.ph-pm__titleRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.ph-pm__title {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+}
+
+.ph-pm__links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.ph-pm__linkBtn {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 7px 10px;
+  font-size: 12px;
+}
+
+.ph-pm__linkBtn:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.ph-pm__tagline {
+  color: var(--muted);
+  font-size: 12px;
+  margin: 6px 0 10px;
+}
+
+.ph-pm__bullets {
+  margin: 0 0 10px;
+  padding-left: 18px;
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.ph-pm__stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.ph-pm__pill {
+  padding: 6px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.18);
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 11px;
+}

@@ -1,0 +1,67 @@
+.ph-cm__note {
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.55;
+  margin-bottom: 12px;
+}
+
+.ph-cm__card {
+  padding: 14px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  margin-bottom: 12px;
+}
+
+.ph-cm__row {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.ph-cm__row:last-child {
+  border-bottom: none;
+}
+
+.ph-cm__label {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.ph-cm__value {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 12px;
+  word-break: break-word;
+}
+
+.ph-cm__value--link:hover {
+  text-decoration: underline;
+}
+
+.ph-cm__actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.ph-cm__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.ph-cm__btn:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.ph-cm__btn--primary {
+  border-color: rgba(124, 92, 255, 0.6);
+  background: rgba(124, 92, 255, 0.16);
+}

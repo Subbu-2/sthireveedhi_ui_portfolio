@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "company": "Discover Financial Services",
+      "title": "Application Engineer",
+      "location": "Riverwoods, Illinois, USA",
+      "dates": "JUN 2023 – PRESENT",
+      "summary": "Enterprise products: real-time customer alerts for credit & identity theft.",
+      "impact": [
+        "Built and maintained Spring Batch pipelines processing high-volume real-time alerts",
+        "Implemented automated alert threshold stop mechanism for safer production runs",
+        "Improved observability with structured logging and standardized error handling",
+        "Worked on vendor API integrations for reliable ingestion and processing"
+      ],
+      "stack": ["Java", "GO", "Spring Boot", "Spring Batch", "REST APIs", "SQL", "AWS", "Docker"]
+    },
+    {
+      "company": "CipherNine",
+      "title": "Full Stack Java Developer",
+      "location": "Remote",
+      "dates": "FEB 2023 – MAY 2023",
+      "summary": "Small engineering team focused on delivering secure enterprise applications.",
+      "impact": [
+        "Delivered backend services and frontend features across full-stack Java ecosystem",
+        "Refactored legacy components to improve reliability and maintainability",
+        "Collaborated directly with stakeholders in a lean team environment"
+      ],
+      "stack": ["Java", "Spring", "React", "REST APIs", "SQL"]
+    },
+    {
+      "company": "CivicServe",
+      "title": "Software Engineering Intern",
+      "location": "Bloomington, Illinois, USA",
+      "dates": "JUL 2022 – DEC 2022",
+      "summary": "Internship focused on web application enhancements and feature delivery.",
+      "impact": [
+        "Assisted in frontend feature implementation and backend integration",
+        "Participated in requirement analysis and testing cycles"
+      ],
+      "stack": ["Java", "Spring", "SQL"]
+    },
+    {
+      "company": "Tata Consultancy Services",
+      "title": "Software Engineer",
+      "location": "India",
+      "dates": "JUL 2018 – AUG 2021",
+      "summary": "Enterprise Java development with focus on stable delivery and production support.",
+      "impact": [
+        "Developed backend services and supported release cycles",
+        "Worked across full SDLC from development to deployment"
+      ],
+      "stack": ["Java", "Spring", "SQL", "Git"]
+    }
+  ]
+}

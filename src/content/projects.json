@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "title": "Profile Hub",
+      "tagline": "Production-ready portfolio builder (Go + React + DynamoDB)",
+      "highlights": [
+        "JWT auth + protected routes",
+        "CRUD: Experience/Education/Projects/Certifications/Recognitions",
+        "Public profile contract + theme tokens",
+        "Deployed on AWS EC2 with SHA-tag Docker images"
+      ],
+      "stack": ["Go (Gin)", "React (Vite)", "DynamoDB", "Docker", "Nginx", "AWS EC2"],
+      "links": {
+        "live": "",
+        "repo": ""
+      }
+    }
+  ]
+}

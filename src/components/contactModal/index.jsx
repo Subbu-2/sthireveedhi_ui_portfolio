@@ -39,8 +39,8 @@ export default function ContactModal() {
       <div className="ph-cm__card">
         <Row label="Email" value={contact.email} />
         <Row label="LinkedIn" value="Open profile" href={contact.linkedin} />
-        <Row label="GitHub" value="Open profile" href={contact.github} />
-        <Row label="Portfolio" value="Open site" href={contact.portfolio} />
+        <Row label="GitHub" value="Link to Github" href={contact.github} />
+        <Row label="Whatsapp" value={contact.whatsapp} />
       </div>
 
       <div className="ph-cm__actions">

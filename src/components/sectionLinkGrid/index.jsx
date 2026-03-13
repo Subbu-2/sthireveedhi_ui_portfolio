@@ -7,7 +7,7 @@ const SECTIONS = [
   { key: "skills", title: "Skills", sub: "Strength areas" },
   { key: "projects", title: "Projects", sub: "Case studies" },
   { key: "contact", title: "Contact", sub: "Reach me" },
-  { key: "resume", title: "Resume", sub: "PDF view" }
+  // { key: "resume", title: "Resume", sub: "PDF view" }
 ];
 
 export default function SectionLinkGrid({ onOpen }) {

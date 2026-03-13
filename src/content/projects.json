@@ -11,8 +11,8 @@
       ],
       "stack": ["Go (Gin)", "React (Vite)", "DynamoDB", "Docker", "Nginx", "AWS EC2"],
       "links": {
-        "live": "",
-        "repo": ""
+        "live": "https://profilehub.devcraftz.com",
+        "repo": "https://github.com/Subbu-2/"
       }
     }
   ]

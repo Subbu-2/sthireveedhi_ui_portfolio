@@ -1,8 +1,32 @@
 {
   "groups": [
-    { "title": "Backend", "items": ["Java", "Spring Boot", "Go", "Python", "Microservices", "REST APIs", "Spring Batch"] },
-    { "title": "Frontend", "items": ["React", "Vite", "HTML/CSS", "Component design"] },
-    { "title": "Cloud/DevOps", "items": ["AWS", "Docker", "Nginx", "GitHub Actions", "CI/CD"] },
-    { "title": "Data", "items": ["SQL", "Monitoring & logging"] }
+    {
+      "title": "Backend",
+      "items": ["Java (8–21)", "Spring Boot", "Spring Batch", "Hibernate", "Python", "FastAPI", "Go", "Gin", "Microservices", "REST APIs", "OAuth2", "JWT"]
+    },
+    {
+      "title": "Frontend",
+      "items": ["React (Vite, JSX)", "TypeScript", "React Native", "Redux", "JavaScript (ES6+)", "HTML5", "CSS3", "Responsive UI"]
+    },
+    {
+      "title": "Cloud & Infrastructure",
+      "items": ["AWS (EC2, S3, RDS, IAM, CloudWatch)", "Docker", "Kubernetes (OpenShift)", "Nginx", "Linux/Unix"]
+    },
+    {
+      "title": "Data",
+      "items": ["PostgreSQL", "MySQL", "DynamoDB", "Redis"]
+    },
+    {
+      "title": "DevOps & CI/CD",
+      "items": ["Jenkins", "GitHub Actions", "Helm", "SonarQube"]
+    },
+    {
+      "title": "Architecture",
+      "items": ["Distributed Systems", "Event-Driven Processing", "Kafka", "GraphQL", "API Design", "System Design", "Scalable Systems"]
+    },
+    {
+      "title": "Observability & Testing",
+      "items": ["Datadog", "Kibana", "JUnit", "Mockito", "Jest", "Cucumber", "Postman"]
+    }
   ]
 }

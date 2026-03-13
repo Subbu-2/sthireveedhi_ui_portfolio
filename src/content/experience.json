@@ -1,8 +1,8 @@
 {
   "items": [
     {
-      "company": "Discover Financial Services",
-      "title": "Application Engineer",
+      "company": "Capital One (Discover) ",
+      "title": " Senior Software Engineer (Application Engineer)",
       "location": "Riverwoods, Illinois, USA",
       "dates": "JUN 2023 – PRESENT",
       "summary": "Enterprise products: real-time customer alerts for credit & identity theft.",
@@ -16,32 +16,29 @@
     },
     {
       "company": "CipherNine",
-      "title": "Full Stack Java Developer",
+      "title": "Full Stack Engineer",
       "location": "Remote",
       "dates": "FEB 2023 – MAY 2023",
       "summary": "Small engineering team focused on delivering secure enterprise applications.",
       "impact": [
-        "Delivered backend services and frontend features across full-stack Java ecosystem",
-        "Refactored legacy components to improve reliability and maintainability",
-        "Collaborated directly with stakeholders in a lean team environment"
+        "Refactored legacy components to improve reliability and maintainability"
       ],
       "stack": ["Java", "Spring", "React", "REST APIs", "SQL"]
     },
     {
       "company": "CivicServe",
-      "title": "Software Engineering Intern",
+      "title": "Full Stack Engineer Intern",
       "location": "Bloomington, Illinois, USA",
       "dates": "JUL 2022 – DEC 2022",
       "summary": "Internship focused on web application enhancements and feature delivery.",
       "impact": [
-        "Assisted in frontend feature implementation and backend integration",
-        "Participated in requirement analysis and testing cycles"
+        "Assisted in frontend feature implementation and backend integration"
       ],
       "stack": ["Java", "Spring", "SQL"]
     },
     {
       "company": "Tata Consultancy Services",
-      "title": "Software Engineer",
+      "title": "Junior Engineer",
       "location": "India",
       "dates": "JUL 2018 – AUG 2021",
       "summary": "Enterprise Java development with focus on stable delivery and production support.",

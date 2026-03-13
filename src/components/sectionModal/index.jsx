@@ -13,7 +13,7 @@ function Placeholder({ title }) {
     <div className="ph-sectionModal__placeholder">
       <div className="ph-sectionModal__big">{title}</div>
       <div className="ph-sectionModal__muted">
-        Content will be wired from JSON next.
+        Comming Soon ....
       </div>
     </div>
   );
@@ -42,7 +42,7 @@ export default function SectionModal({ view, onClose }) {
       {view === "certifications" && <CertificationsModal />}
       {view === "skills" && <SkillsModal />}
       {view === "contact" && <ContactModal />}
-      {view === "resume" && <ResumeModal />}
+      {view === "resume" && <Placeholder/>}
     </ModalShell>
   );
 }
